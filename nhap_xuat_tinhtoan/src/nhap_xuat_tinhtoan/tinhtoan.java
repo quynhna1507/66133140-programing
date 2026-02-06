@@ -16,7 +16,7 @@ public class tinhtoan {
 	// tinh toan
 	tong = num1+num2;
 	//xuat
-	System.out.print("tổng của 2 số là: " + tong);
+	System.out.print("tổng của 2 số là:   " + tong);
 
 
 }

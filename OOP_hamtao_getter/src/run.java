@@ -24,6 +24,9 @@ public class run {
     System.out.print(cn1_dai);
     System.out.print("hình chữ nhật có chiều rộng là : ");
     System.out.print(cn1_rong);
+    
+    //dung tostring
+    System.out.print(cn1.toString());
 }
 	
 

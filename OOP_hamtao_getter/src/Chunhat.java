@@ -9,7 +9,7 @@ public Chunhat() {    //ham tao
 	
 }
 public Chunhat(double dai,double rong) {
-	this.dai = dai;	
+	this.dai = dai; 	
 }
 
 
@@ -24,5 +24,11 @@ void setDai(double daiM) {
 }
 void setRong(double rongM) {
 	rong=rongM;
+}
+public String toString() {   // phuong thuc khac
+   String s = "hinh co chieu dai =";
+   s= s+dai;
+   s=s+ "va chieu rong la" +rong;
+   return s;
 }
 }

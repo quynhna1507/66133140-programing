@@ -19,6 +19,31 @@ public class run {
 		// Them vao cuoi danh sach 
 		dsSoNguyen.add(tam);
 		
-	
+		// b.In ra danh sach vua nhap
+		System.out.print("Danh sach vua nhap la \n");
+//		for(int i=0; i<dsSoNguyen.size(); i++) {
+//			// Lay gia tri phan tu o vi tri i, cat vao bien tam
+//			Integer tam = dsSoNguyen.get(i);
+//			System.out.print(tam + " ");
+//			}
+		for(Integer x: dsSoNguyen) {
+			System.out.print(x + " ");
+		}
+		
+		// c.Dem so phan tu chan
+		int soLuongPTchan=0;
+		for(Integer x: dsSoNguyen) {
+			if(x % 2 == 0) soLuongPTchan=soLuongPTchan+1;
+		}
+		System.out.println("\nSo luong phan tu chan la: " + soLuongPTchan);
+		
+		// d.Tinh tong cac pahn tu
+		int TongALL=0;
+		for(Integer x: dsSoNguyen) {
+			TongALL = TongALL +x;
+		}
+		System.out.println("Tong tat ca cac phan tu la: " + TongALL);
+		
+			}
 	}
 }

@@ -40,6 +40,24 @@ public class nhanvien {
 	    	System.out.println("Ho ten: " + hoTen);
 	    	System.out.println("Luong co ban: " + luongCoBan);
 	    }
-	   
+	    //cac getter va setter
+		public String getMaNV() {
+			return maNV;
+		}
+		public void setMaNV(String maNV) {
+			this.maNV = maNV;
+		}
+		public String getHoTen() {
+			return hoTen;
+		}
+		public void setHoTen(String hoTen) {
+			this.hoTen = hoTen;
+		}
+		public double getLuongCoBan() {
+			return luongCoBan;
+		}
+		public void setLuongCoBan(double luongCoBan) {
+			this.luongCoBan = luongCoBan;
+		}
 	    
 }

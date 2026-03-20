@@ -1,6 +1,6 @@
 package quynhqlnv;
 
-public class nhanvien {
+public class NhanVien {
 	  //Thuoc tinh 
 		private String maNV;
 		private String hoTen;

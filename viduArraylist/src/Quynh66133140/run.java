@@ -45,5 +45,6 @@ public class run {
 		System.out.println("Tong tat ca cac phan tu la: " + TongALL);
 		
 			}
+	
 	}
 }

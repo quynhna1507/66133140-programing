@@ -3,9 +3,12 @@ public class HocSinh {
 	private String tenHS;
 	private int tuoiHS;
 	private String lopHS;
+
+	//get set
 	public String getTenHS() {
 		return tenHS;
 	}
+
 	public void setTenHS(String tenHS) {
 		this.tenHS = tenHS;
 	}
@@ -21,13 +24,17 @@ public class HocSinh {
 	public void setLopHS(String lopHS) {
 		this.lopHS = lopHS;
 	}
+	//contructor
+public HocSinh() {
 	
+}
 public HocSinh(String tenHS,int tuoiHS,String lopHS) {
 	this.tenHS= tenHS;
 	this.lopHS= lopHS;
 	this.tuoiHS = tuoiHS;
 	
 }
+//To String
 @Override
 public String toString() {
 	return "HocSinh [tenHS=" + tenHS + ", tuoiHS=" + tuoiHS + ", lopHS=" + lopHS + "]";
